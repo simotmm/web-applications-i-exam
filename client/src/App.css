@@ -1,0 +1,46 @@
+/* css per le card dei meme */
+.card-meme-container {
+    max-width: 300px;
+}
+
+.card-meme {
+    width: 100%;
+}
+
+.card-img-2 {
+    max-width: 100%;
+    border-radius: 0;
+}
+
+.card-text-center {
+    text-align: center;
+}
+
+.card-icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* css per il banner */
+.banner-container{
+    max-width: 500px;
+}
+
+.blur-border {
+    width: 500px;
+
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* css per il footer */
+.myfooter {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+  
